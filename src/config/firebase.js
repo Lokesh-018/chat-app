@@ -7,7 +7,6 @@ import { setDoc } from "firebase/firestore";
 import { doc } from "firebase/firestore";
 import { toast } from "react-toastify";
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyCPXV63NjfLspU3tX-CVFnqPso5448o2fo",
   authDomain: "chat-app-x18.firebaseapp.com",
