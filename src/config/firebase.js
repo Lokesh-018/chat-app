@@ -29,9 +29,8 @@ const signup = async (username, email, password) => {
     await setDoc(doc(db, "users", user.uid), {
       id: user.uid,
       username: username.toLowerCase(),
-      email,
+      email: "",
       name: "",
-      avatar: "",
       bio: "Hey, There i am using Chat App",
       lastSeen: Date.now()
     })
